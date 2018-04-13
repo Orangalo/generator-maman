@@ -1,7 +1,17 @@
+<%
+    function numberToLetter(i) {
+        return String.fromCharCode(i.toString().charCodeAt(0) + 1439);
+    }
+
+    function getSubsectionName(i) {
+        return 'סעיף ' + numberToLetter(i) + "'"
+    }
+%>
+
 \pagebreak
 % MARK: Q<%- questionNumber %>
 \section{שאלה <%- questionNumber %>}
 <% for (let i = 1; i <= parts; i++) {%>
 % MARK: P<%- i %>
-\subsection{סעיף <%- i %>}
+\subsection{<%- getSubsectionName(i) %>}
 <% }%>
