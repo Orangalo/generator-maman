@@ -1,0 +1,32 @@
+\documentclass{article}
+
+\usepackage[nodisplayskipstretch]{setspace}
+\usepackage{amsmath}
+
+% Hebrew Stuff
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage[english,hebrew]{babel}
+
+\setstretch{1.5}
+\setcounter{tocdepth}{1}
+
+\setlength{\parindent}{0in}
+
+\addtolength{\oddsidemargin}{-.875in}
+\addtolength{\evensidemargin}{-.875in}
+\addtolength{\textwidth}{1.75in}
+
+\addtolength{\topmargin}{-.875in}
+\addtolength{\textheight}{1.75in}
+
+\title{ממ''ן {<%- mamanNumber %>}}
+\author{authorName}
+
+\begin{document}
+	\maketitle
+	\tableofcontents
+
+	\large<% for (let i = 1; i <= questionCount; i++) {%>
+	\include{questions/question<%- i %>}<% }%>
+\end{document}

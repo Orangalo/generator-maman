@@ -1,0 +1,7 @@
+\pagebreak
+% MARK: Q<%- questionNumber %>
+\section{שאלה <%- questionNumber %>}
+<% for (let i = 1; i <= parts; i++) {%>
+% MARK: P<%- i %>
+\subsection{סעיף <%- i %>}
+<% }%>
