@@ -1,6 +1,6 @@
 {
   "name": "generator-maman",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Enter the number of questions and the number of parts for each question and a tidy maman (lecturer assignment) template will be generated for you",
   "homepage": "",
   "author": {
