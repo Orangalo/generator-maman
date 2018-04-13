@@ -1,5 +1,5 @@
 # generator-maman [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> Creates a maman (lecturer assignment) template based on amount of questions and parts of each question
+> Enter the number of questions and the number of parts for each question and a tidy maman (lecturer assignment) template will be generated for you 
 
 ## Installation
 

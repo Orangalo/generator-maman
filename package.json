@@ -1,7 +1,7 @@
 {
   "name": "generator-maman",
   "version": "0.0.0",
-  "description": "Creates a maman (lecturer assignment) template based on amount of questions and parts of each question",
+  "description": "Enter the number of questions and the number of parts for each question and a tidy maman (lecturer assignment) template will be generated for you",
   "homepage": "",
   "author": {
     "name": "Yuval Gat",
