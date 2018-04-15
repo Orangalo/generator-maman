@@ -11,7 +11,7 @@ module.exports = class extends Generator {
 			{
 				type: 'input',
 				name: 'questionsArray',
-				message: 'How many parts for every question? Example: [3, 4, 2] means q1 has 3 parts, q2 has 4 and q3 has 2.',
+				message: 'How many parts for every question? Example: [3, 4, 0, 2] means q1 has 3 parts, q2 has 4, q3 has 0 (standalone question) and q4 has 2.',
 				default: '[1, 2, 3, 4]'
 			}, {
 				type: 'input',
